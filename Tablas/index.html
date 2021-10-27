@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <!-- la etiqueta de abajo es css
+    preg: como hago para que lo de
+    abajo no se aplique a todas las
+    tablas de la pagina? -->
+    <style> 
+        table, th, td {
+            border: 1px solid black;
+        }   
+    </style>
+</head>
+<body>
+    <h1>Tablas:</h1>
+    <hr>
+    <h2>Tabla simple:</h2>
+    <table style="width: 500px;"> <!-- hace la tabla mas ancha -->
+        <tr>
+            <th>Cabecera 1</th> <!-- ej: se puede utilizar para "producto", para "precio", etc -->
+            <th>Cabecera 2</th>
+            <th>Cabecera 3</th>
+        </tr>
+        <tr>
+            <td>Elemento 1</td> <!-- Ej: se puede utilizar para responder a lo de arriba -->
+            <td>Elemento 2</td>
+            <td>Elemento 3</td>
+        </tr>
+        <tr>
+            <td>Elemento 1</td>
+            <td>Elemento 2</td>
+            <td>Elemento 3</td>
+        </tr>
+        <tr>
+            <td>Elemento 1</td>
+            <td>Elemento 2</td>
+            <td>Elemento 3</td>
+        </tr>
+    </table>
+    <h2>Tabla con Logica y pie de tabla:</h2>
+    <table style="width: 500px;"> <!-- hace la tabla mas ancha -->
+        <thead>
+            <tr>
+                <th>Cabecera 1</th> <!-- ej: se puede utilizar para "producto", para "precio", etc -->
+                <th>Cabecera 2</th>
+                <th>Cabecera 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Elemento 1</td> <!-- Ej: se puede utilizar para responder a lo de arriba -->
+                <td>Elemento 2</td>
+                <td>Elemento 3</td>
+            </tr>
+            <tr>
+                <td>Elemento 1</td>
+                <td>Elemento 2</td>
+                <td>Elemento 3</td>
+            </tr>
+            <tr>
+                <td>Elemento 1</td>
+                <td>Elemento 2</td>
+                <td>Elemento 3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Pie de tabla 1</td>
+            <td>Pie de tabla 2</td>
+            <td>Pie de tabla 3</td>
+        </tfoot>
+    </table> 
+    <!-- Visualmente no va a cambiar nada.
+    pero la etiquetas "thead" y "tbody" 
+    van a darle a la tabla una funcion
+    logica que el navegador podrá utilizar --> 
+    <h2>Ejemplo de tabla</h2>
+    <h3>Carro de compras:</h3>
+    <table style="width: 500px; border: 1px solid green">
+        <thead>
+            <tr>
+                <th>Genetica</th>
+                <th>Especie</th>
+                <th>THC %</th>
+                <th>Curado</th>
+                <th>Precio xG</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Purple Kush</td>
+                <td>Indica</td>
+                <td>20%</td>
+                <td>60 dias</td>
+                <td>$700</td>
+            </tr>
+            <tr>
+                <td>Chocolope</td>
+                <td>Sativa</td>
+                <td>15%-20%</td>
+                <td>35 dias</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>Lemon Kush</td>
+                <td>Hibrida</td>
+                <td>21,6%</td>
+                <td>90 dias</td>
+                <td>$900</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Total: $2100</td>
+        </tfoot>
+    </table>
+</body>
+</html>

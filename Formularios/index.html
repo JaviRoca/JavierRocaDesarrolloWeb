@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Practicando las etiquetas de Formularios</h1> 
+    <hr>
+    <form>
+      <fieldset>
+          <legend>Datos personales</legend>
+          <label for="Nombre">Nombre</label>
+          <input id="Nombre" name="Nombre" placeholder="Juan" required>
+          <label for="Apellido">Apellido</label>
+          <input id="Apellido" name="Apellido" placeholder="Perez" required> <br /> <br />
+          <label>Genero:</label>
+          <input type="radio" id="Genero" name="Genero"> M
+          <input type="radio" id="Genero" name="Genero"> F
+          <input type="radio" id="Genero" name="Genero"> Otro
+          <input type="radio" id="Genero" name="Genero"> Prefiero no decirlo <br /> <br />
+          <label for="DNI">DNI</label>
+          <input type="number" id="DNI" name="DNI" placeholder="45698254" required>
+          <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+          <input type="date" id="Fecha de nacimiento" name="Fecha de nacimiento" required>
+      </fieldset> <br />
+      <fieldset>
+          <legend>Datos de Contacto</legend>
+          <label for="Celular">Celular</label>
+          <input type="number" name="Celular" id="Celular" placeholder="3624589647">
+          <label for="Email">Email</label>
+          <input type="email" name="Email" id="Email" placeholder="juanperez@gmail.com" required> <br /> <br />
+          <label for="Calle/Avenida">Calle/Avenida</label>
+          <input name="Calle/Avenida" id="Calle/Avenida" placeholder="Catamarca" required>
+          <label for="Altura">Altura</label>
+          <input type="number" name="Altura" id="Altura" placeholder="1458" required>  <br /> <br />
+          <label>Tipo de vivienda:</label>
+          <input type="radio" name="Tipo de vivienda" id="Casa"> Casa
+          <input type="radio" name="Tipo de vivienda" id="Edificio"> Edificio <br /> <br />
+          <label for="Departamento">Departamento</label>
+          <input name="Departamento" id="Departamento" placeholder="7 C">
+      </fieldset> <br />
+      <fieldset>
+          <legend>Comentarios</legend>
+          <textarea name="Comentarios" id="Comentarios" cols="80" rows="5" placeholder="Escribi aca los datos que quieras agregar"></textarea>
+      </fieldset> <br />
+      <button type="reset"><img src="img/x.png" width="30"></button>
+      <button type="submit"><img src="img/siguiente verde.jpg" width="30"></button>
+   </form>    
+</body>
+</html>
