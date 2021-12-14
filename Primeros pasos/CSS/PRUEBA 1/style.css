@@ -1,0 +1,90 @@
+#titulo {
+    color: tomato;
+}
+
+p.especial {
+    color: mediumseagreen;
+}
+
+p.texto {
+    color: slateblue;
+}
+
+div p {
+    color: aquamarine;
+}
+
+div h2, div h3 {
+    color: brown;
+}
+
+* {
+    font-size: 24px;
+    color: black;
+}
+
+/* 
+Hola que tal, esto es un comentario,
+el interprete de CSS no va a ver esto,
+solo es para que mi yo del futuro lo 
+vea. Esto puede ir en cualquier lado y
+formar parte de cualquier linea
+*/
+
+/*
+.color {
+    color: #ff0000;
+}
+*/
+
+/*
+.color {
+    color: rgb(0, 255, 255)
+}
+*/
+
+.color {
+    border-style: ridge;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 2rem;
+}
+
+    /*
+        Opciones de borde:
+        dotted
+        dashed
+        solid
+        double
+        groove
+        ridge
+        inset
+        outset
+        none
+        hidden
+
+        Unidades de medida absolutas:
+        "px": pixeles
+        "cm": centimetros
+        "mm": milimetros
+        "in": pulgada
+        "pt": puntos → 1/72 de pulgada
+        "pc" : picas → 12 puntos
+
+        Unidades de medida relativas: 
+        "em": dos veces el tamano de la
+        fuente que se esta utilizando
+        actualmente. Va a cambiar
+        dependiendo al elemento que se
+        le aplique
+        "rem": relativo al tamano de la
+        fuente del elemento raiz. en este
+        caso, la etiqueta html (la mayo
+        ria de navegadores tiene standard
+        16px, o sea, 1 rem serian 16 px,
+        2 rem 
+
+*/
+
+
+

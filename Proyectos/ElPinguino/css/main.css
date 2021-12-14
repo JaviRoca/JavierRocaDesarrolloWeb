@@ -1,0 +1,105 @@
+/*===============Propiedades Globales================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+/*===================ANIMACION DE ENCABEZADO==========================*/
+
+header p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 50%;
+      width: 700%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 48%;
+    }
+  }
+
+
+/*===================MENU==========================*/
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button {
+    font-size: 18px;
+}
+
+
+/*===================SLIDER DE IMAGENES==========================*/
+
+.carousel-inner {
+    max-block-size: 300px;
+}
+
+
+/*=========================BIOGRAFIA================================*/
+
+
+
+/*=========================RECOMENDACIONES================================*/
+
+#comentario {
+    width: 100%;
+    height: 100px;
+}
+
+/*=========================FOOTER================================*/
+
+footer {
+    background: #1b2a4e;
+    min-height: 50px;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 20px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+@media (max-width: 768px) {
+    #intro {
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+    #recomendaciones {
+        width: 90% !important;
+    }
+}
+
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    #iconos {
+        padding-bottom: 10px;
+    }
+}

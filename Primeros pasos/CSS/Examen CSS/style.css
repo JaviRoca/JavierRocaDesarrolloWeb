@@ -1,0 +1,13 @@
+h1 {
+    border: green 5px ridge;
+}
+
+p {
+    border: red 2px solid;
+    margin: 20px;
+}
+
+div p {
+    border: green 2px solid;
+    padding-left: 20px;
+}
